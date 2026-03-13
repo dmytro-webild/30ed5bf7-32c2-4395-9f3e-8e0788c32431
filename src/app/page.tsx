@@ -194,7 +194,7 @@ export default function LandingPage() {
               id: "6",              name: "Elena Nováková",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dsbeli&_wi=2",              imageAlt: "Elena Nováková"
             }
           ]}
-          cardTitle="Viac ako 1000 spokojných zákazníkov nám dôveruje s ich elektrickými potrebami"
+          cardTitle="Pozrite si ich skúsenosti"
           cardTag="Pozrite si ich skúsenosti"
           cardTagIcon={Heart}
           cardAnimation="blur-reveal"
