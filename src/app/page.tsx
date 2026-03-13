@@ -51,30 +51,30 @@ export default function LandingPage() {
           background={{ variant: "glowing-orb" }}
           leftCarouselItems={[
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Montáž osvetlenia"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=1",              imageAlt: "Montáž osvetlenia"
             },
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Inštalácia elektrických obvodov"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=2",              imageAlt: "Inštalácia elektrických obvodov"
             },
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Ťahanie káblov"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=3",              imageAlt: "Ťahanie káblov"
             },
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Profesionálna inštalácia zásuviek"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=4",              imageAlt: "Profesionálna inštalácia zásuviek"
             }
           ]}
           rightCarouselItems={[
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Montáž lamp a osvetlenia"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=5",              imageAlt: "Montáž lamp a osvetlenia"
             },
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Rozvádzač elektrických obvodov"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=6",              imageAlt: "Rozvádzač elektrických obvodov"
             },
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Ťahanie elektrických káblov"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=7",              imageAlt: "Ťahanie elektrických káblov"
             },
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Inštalácia zásuviek a vypínačov"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=8",              imageAlt: "Inštalácia zásuviek a vypínačov"
             }
           ]}
           buttons={[
