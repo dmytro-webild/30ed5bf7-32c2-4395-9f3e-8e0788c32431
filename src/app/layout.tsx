@@ -12,7 +12,7 @@ import { DM_Sans } from "next/font/google";
 
 export const metadata: Metadata = {
   title: 'ElektroServis - Profesionálny Elektrikár | Elektroinštalácie a Opravy',
-  description: 'Spoľahlivý elektrikár v meste. Elektroinštalácie, opravy, montáže osvetlenia. Profesionálny prístup, rýchla dostupnosť, férové ceny. Kontaktujte nás dnes!',
+  description: 'Spoľahlivý elektrikár . Elektroinštalácie, opravy, montáže osvetlenia. Profesionálny prístup, rýchla dostupnosť, férové ceny. Kontaktujte nás dnes!',
 };
 
 const manrope = Manrope({
