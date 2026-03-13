@@ -114,11 +114,6 @@ export default function LandingPage() {
               ]
             },
             {
-              id: "repairs",              label: "Opravy",              title: "Rýchle a bezpečné opravy elektrických porúch",              items: [
-                "Záchranné opravy",                "Diagnostika problémov",                "Opravy rozvádzačov",                "Riešenie výpadkov"
-              ]
-            },
-            {
               id: "lighting",              label: "Osvetlenie",              title: "Inštalácia moderného LED osvetlenia",              items: [
                 "Montáž lustrov",                "LED systémy",                "Vonkajšie svetlá",                "Efektné osvetlenie"
               ]
