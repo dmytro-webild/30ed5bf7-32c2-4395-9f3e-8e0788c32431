@@ -43,7 +43,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroSplitDoubleCarousel
-          title="Spoľahlivé elektrikárske služby vo vašom meste"
+          title="Spoľahlivé elektroinštalačné služby vo vašom meste"
           description="Profesionálne elektroinštalácie, opravy a montáže pre domácnosti aj firmy. Skúsená firma s kompletnými riešeniami pre všetky vaše elektro potreby."
           tag="Elektro Služby"
           tagIcon={Zap}
