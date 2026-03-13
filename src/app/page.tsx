@@ -205,7 +205,7 @@ export default function LandingPage() {
       <div id="contact" data-section="contact">
         <ContactSplitForm
           title="Rýchla oprava v do 24 hodín – Napíšte nám teraz"
-          description="Radi vám pomôžeme s akýmkoľvek elektro problémom alebo projektom. Vyplňte formulár a my vás kontaktujeme čo najskôr."
+          description="Tatra Mont s.r.o. | Tel: +421 910 360 086 | Email: contact@tatramont.com\n\nRadi vám pomôžeme s akýmkoľvek elektro problémom alebo projektom. Vyplňte formulár a my vás kontaktujeme čo najskôr."
           inputs={[
             { name: "meno", type: "text", placeholder: "Vaše meno", required: true },
             { name: "telefon", type: "tel", placeholder: "Telefónne číslo", required: true },
@@ -226,7 +226,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
-          logoText="Tatra Mont s.r.o."
+          logoText="ElektroServis"
           leftLink={{
             text: "Ochrana údajov",            href: "#"
           }}
