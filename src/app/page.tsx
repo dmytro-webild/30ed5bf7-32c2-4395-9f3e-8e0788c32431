@@ -226,7 +226,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
-          logoText="ElektroServis"
+          logoText="Tatra Mont s.r.o."
           leftLink={{
             text: "Ochrana údajov",            href: "#"
           }}
