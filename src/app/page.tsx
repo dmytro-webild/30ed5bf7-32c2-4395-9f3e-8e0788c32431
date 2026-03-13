@@ -9,7 +9,7 @@ import MetricCardSeven from "@/components/sections/metrics/MetricCardSeven";
 import TestimonialCardTwelve from "@/components/sections/testimonial/TestimonialCardTwelve";
 import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
 import FooterLogoReveal from "@/components/sections/footer/FooterLogoReveal";
-import { Zap, Shield, Sparkles, Award, Heart } from "lucide-react";
+import { Zap, Shield, Sparkles, Award, Heart, Wrench, Lightbulb, PlugZap, Settings } from "lucide-react";
 
 export default function LandingPage() {
   return (
