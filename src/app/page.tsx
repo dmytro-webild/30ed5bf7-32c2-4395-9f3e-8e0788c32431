@@ -19,7 +19,7 @@ export default function LandingPage() {
       borderRadius="pill"
       contentWidth="compact"
       sizing="mediumLargeSizeLargeTitles"
-      background="grid"
+      background="circleGradient"
       cardStyle="gradient-bordered"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="solid"
@@ -48,10 +48,10 @@ export default function LandingPage() {
           tag="Elektro Služby"
           tagIcon={Zap}
           tagAnimation="slide-up"
-          background={{ variant: "grid" }}
+          background={{ variant: "glowing-orb" }}
           leftCarouselItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nbwzpv&_wi=1",              imageAlt: "Elektrikár pri profesionálnej práci"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nbwzpv",              imageAlt: "Elektrikár pri profesionálnej práci"
             },
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=x6dv6w",              imageAlt: "Moderná elektroinštalácia"
@@ -60,12 +60,12 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rcwsf6",              imageAlt: "LED osvetlenie inštalácia"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ufo9q7&_wi=1",              imageAlt: "Profesionálna elektro oprava"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ufo9q7",              imageAlt: "Profesionálna elektro oprava"
             }
           ]}
           rightCarouselItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ufo9q7&_wi=2",              imageAlt: "Oprava elektrických porúch"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ufo9q7",              imageAlt: "Oprava elektrických porúch"
             },
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nmv3oz",              imageAlt: "Montáž zásuviek a vypínačov"
@@ -74,7 +74,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=avh839",              imageAlt: "Elektrický rozvádzač"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nbwzpv&_wi=2",              imageAlt: "Profesionálny elektrikár"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nbwzpv",              imageAlt: "Profesionálny elektrikár"
             }
           ]}
           buttons={[
@@ -181,10 +181,10 @@ export default function LandingPage() {
         <TestimonialCardTwelve
           testimonials={[
             {
-              id: "1",              name: "Peter Kováč",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q28sq4&_wi=1",              imageAlt: "Peter Kováč"
+              id: "1",              name: "Peter Kováč",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q28sq4",              imageAlt: "Peter Kováč"
             },
             {
-              id: "2",              name: "Mária Horváthová",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dsbeli&_wi=1",              imageAlt: "Mária Horváthová"
+              id: "2",              name: "Mária Horváthová",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dsbeli",              imageAlt: "Mária Horváthová"
             },
             {
               id: "3",              name: "Ján Varga",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=pz41rb",              imageAlt: "Ján Varga"
@@ -193,10 +193,10 @@ export default function LandingPage() {
               id: "4",              name: "Anna Balážová",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=z2y1pm",              imageAlt: "Anna Balážová"
             },
             {
-              id: "5",              name: "Tomáš Molnár",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q28sq4&_wi=2",              imageAlt: "Tomáš Molnár"
+              id: "5",              name: "Tomáš Molnár",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q28sq4",              imageAlt: "Tomáš Molnár"
             },
             {
-              id: "6",              name: "Elena Nováková",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dsbeli&_wi=2",              imageAlt: "Elena Nováková"
+              id: "6",              name: "Elena Nováková",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=dsbeli",              imageAlt: "Elena Nováková"
             }
           ]}
           cardTitle="Viac ako 1000 spokojných zákazníkov nám dôveruje s ich elektrickými potrebami"
