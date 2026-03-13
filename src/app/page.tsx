@@ -203,25 +203,30 @@ export default function LandingPage() {
       </div>
 
       <div id="contact" data-section="contact">
-        <ContactSplitForm
-          title="Rýchla oprava v do 24 hodín – Napíšte nám teraz"
-          description="Tatra Mont s.r.o. | Tel: +421 910 360 086 | Email: contact@tatramont.com\n\nRadi vám pomôžeme s akýmkoľvek elektro problémom alebo projektom. Vyplňte formulár a my vás kontaktujeme čo najskôr."
-          inputs={[
-            { name: "meno", type: "text", placeholder: "Vaše meno", required: true },
-            { name: "telefon", type: "tel", placeholder: "Telefónne číslo", required: true },
-            { name: "email", type: "email", placeholder: "E-mailová adresa", required: true }
-          ]}
-          textarea={{
-            name: "sprava",            placeholder: "Popíšte váš problém alebo projekt...",            rows: 5,
-            required: true
-          }}
-          useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4evppq"
-          imageAlt="Profesionálny elektrikár"
-          mediaAnimation="slide-up"
-          mediaPosition="right"
-          buttonText="Objednať službu"
-        />
+        <div className="flex flex-col items-center justify-center py-20 px-6 text-center">
+          <h2 className="text-4xl font-bold mb-8 text-foreground">Kontaktujte nás</h2>
+          <div className="space-y-6 max-w-md">
+            <div>
+              <h3 className="text-xl font-semibold mb-2 text-foreground">Tatra Mont s.r.o.</h3>
+            </div>
+            <div>
+              <p className="text-lg text-foreground mb-1">
+                <span className="font-semibold">Telefón:</span>
+              </p>
+              <a href="tel:+421910360086" className="text-primary-cta hover:underline text-lg">
+                +421 910 360 086
+              </a>
+            </div>
+            <div>
+              <p className="text-lg text-foreground mb-1">
+                <span className="font-semibold">Email:</span>
+              </p>
+              <a href="mailto:contact@tatramont.com" className="text-primary-cta hover:underline text-lg">
+                contact@tatramont.com
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="footer" data-section="footer">
