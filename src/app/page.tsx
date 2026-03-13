@@ -51,7 +51,7 @@ export default function LandingPage() {
           background={{ variant: "glowing-orb" }}
           leftCarouselItems={[
             {
-              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=1",              imageAlt: "Montáž osvetlenia"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3At8P0Z5mHF21VArURutjBjmhus/uploaded-1773404575947-nc9d4qxb.jpg",              imageAlt: "Montáž osvetlenia"
             },
             {
               imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop&_wi=2",              imageAlt: "Inštalácia elektrických obvodov"
