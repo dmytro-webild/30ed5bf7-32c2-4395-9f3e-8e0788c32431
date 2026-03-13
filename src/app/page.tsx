@@ -27,7 +27,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
-          brandName="ElektroServis"
+          brandName="Tatra Mont s.r.o."
           navItems={[
             { name: "O nás", id: "about" },
             { name: "Služby", id: "services" },
@@ -231,7 +231,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterLogoReveal
-          logoText="ElektroServis"
+          logoText="Tatra Mont s.r.o."
           leftLink={{
             text: "Ochrana údajov",            href: "#"
           }}
