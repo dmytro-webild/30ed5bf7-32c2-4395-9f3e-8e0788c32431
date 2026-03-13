@@ -51,30 +51,30 @@ export default function LandingPage() {
           background={{ variant: "glowing-orb" }}
           leftCarouselItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nbwzpv&_wi=1",              imageAlt: "Elektrikár pri profesionálnej práci"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Montáž osvetlenia"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=x6dv6w",              imageAlt: "Moderná elektroinštalácia"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Inštalácia elektrických obvodov"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rcwsf6",              imageAlt: "LED osvetlenie inštalácia"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Ťahanie káblov"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ufo9q7&_wi=1",              imageAlt: "Profesionálna elektro oprava"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Profesionálna inštalácia zásuviek"
             }
           ]}
           rightCarouselItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ufo9q7&_wi=2",              imageAlt: "Oprava elektrických porúch"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Montáž lamp a osvetlenia"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nmv3oz",              imageAlt: "Montáž zásuviek a vypínačov"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Rozvádzač elektrických obvodov"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=avh839",              imageAlt: "Elektrický rozvádzač"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Ťahanie elektrických káblov"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nbwzpv&_wi=2",              imageAlt: "Profesionálny elektrikár"
+              imageSrc: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=800&h=600&fit=crop",              imageAlt: "Inštalácia zásuviek a vypínačov"
             }
           ]}
           buttons={[
