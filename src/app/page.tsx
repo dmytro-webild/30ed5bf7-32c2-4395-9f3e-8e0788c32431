@@ -145,7 +145,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           metrics={[
             {
-              id: "1",              value: "20+",              title: "rokov skúseností",              items: [
+              id: "1",              value: "5+",              title: "rokov skúsenosti",              items: [
                 "Dlhoročná tradícia",                "Overené kvality",                "Školení špecialisti"
               ]
             },
@@ -160,7 +160,7 @@ export default function LandingPage() {
               ]
             },
             {
-              id: "4",              value: "500+",              title: "projektov",              items: [
+              id: "4",              value: "100+",              title: "projektov",              items: [
                 "Rozmanité projekty",                "Skúsenosť",                "Referenčné práce"
               ]
             }
