@@ -209,7 +209,7 @@ export default function LandingPage() {
 
       <div id="contact" data-section="contact">
         <ContactSplitForm
-          title="Potrebujete elektrikára? Kontaktujte nás ešte dnes."
+          title="Rýchla oprava v do 24 hodín – Napíšte nám teraz"
           description="Radi vám pomôžeme s akýmkoľvek elektro problémom alebo projektom. Vyplňte formulár a my vás kontaktujeme čo najskôr."
           inputs={[
             { name: "meno", type: "text", placeholder: "Vaše meno", required: true },
@@ -225,7 +225,7 @@ export default function LandingPage() {
           imageAlt="Profesionálny elektrikár"
           mediaAnimation="slide-up"
           mediaPosition="right"
-          buttonText="Odoslať"
+          buttonText="Objednať službu"
         />
       </div>
 
